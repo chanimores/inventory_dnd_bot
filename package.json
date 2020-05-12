@@ -1,0 +1,17 @@
+{
+  "name": "inventory-bot",
+  "version": "1.0.0",
+  "description": "Keeps your items safe and sound.",
+  "main": "bot.js",
+  "author": "chilliechee",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "jspdf": "^1.5.3",
+    "pdfkit": "^0.10.0",
+    "python": "0.0.4",
+    "winston": "^3.0.0"
+  }
+}
