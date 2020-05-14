@@ -24,5 +24,20 @@ In that Command prompt from earlier, you can `cd inventory_dnd_bot` to go into t
 
 ### 3. Get your own Bot Account
 
-Go to this [guide](https://anidiots.guide/getting-started/getting-started-long-version) (Great guide to get started on making your own bot!) and follow Step 1 to get your own App/Bot account. You should end up with a token. Copy this token, put it in place of the filler text in `config.json` and save. 
+Go to this [guide](https://anidiots.guide/getting-started/getting-started-long-version) (Great guide to get started on making your own bot!) and follow Step 1 to get your own App/Bot account. You should end up with a token. Copy this token, put it in place of the filler text in `config.json` and save. In the `ownerID` put your discord 4-number tag there.
 
+### 4. Run the Bot
+
+To run the bot, open a Command Prompt and navigate to your bot's folder by doing `cd Documents/inventory_dnd_bot`. 
+
+Run `node bot.js`
+
+Your bot should now be online and running! To close it, do `CTRL + C`. 
+
+## Usage
+
+After the bot is up, do `dnd!help` to see all the commands. 
+
+You can add characters and add items to those characters. It will save this info to `./inventory_saves/current_characters.JSON/`. If you shut off the bot, you will have to `load!characters` to get back that save into the bot's memory. 
+
+Have any questions? Feel free to send a message. 
