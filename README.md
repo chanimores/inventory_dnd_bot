@@ -10,7 +10,7 @@ as such you will have to set up the discord bot token and run the code yourself 
 
 For more info on the actual commands, run `dnd!help` after the bot is up and running.
 
-## [LIST OF BOT COMMANDS]
+## List of Bot Commands
 > dnd!ping - Command to make sure I'm online!
 
 > dnd!help - List of commands. Same list as this one, just on discord!
