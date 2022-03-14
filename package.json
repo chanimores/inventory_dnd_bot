@@ -9,7 +9,7 @@
     "discord.io": "github:woor/discord.io#gateway_v6",
     "discord.js": "^11.5.1",
     "ffmpeg-binaries": "^4.0.0",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "pdfkit": "^0.10.0",
     "python": "0.0.4",
     "winston": "^3.0.0"
