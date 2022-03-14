@@ -109,7 +109,7 @@ function writeToFile(message) {
 	myJSON = JSON.stringify(chars.characters);
 
 	var fs = require('fs');
-	fs.writeFile('./inventory_saves/current_characters.json', myJSON, 'utf8');
+	fs.writeFileSync('./inventory_saves/current_characters.json', myJSON, 'utf8');
 }
 
 function empty() {
@@ -151,7 +151,7 @@ function removeCharacter(message) {
 	var index = findCharacterIndex(args[1]);
 
 	if (index == -1) {
-		message.channel.send("No character by the name to remove.");
+		message.channel.send("No character by that name to remove.");
 		return;
 	}
 
